@@ -16,3 +16,7 @@ Here I will share my solutions to certain LeetCode, HackerRank, InterviewBit que
 
 ## Tree: Height of a Binary Tree
 - https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem
+
+## Two Sum (LeetCode) - Ice Cream Parlor (HackerRank)
+- https://leetcode.com/problems/two-sum/
+- https://www.hackerrank.com/challenges/icecream-parlor/problem
