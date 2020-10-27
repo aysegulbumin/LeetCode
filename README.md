@@ -13,3 +13,6 @@ Here I will share my solutions to certain LeetCode, HackerRank, InterviewBit que
 
 ## Binary Search Tree - Insertion (HackerRank)
 - https://www.hackerrank.com/challenges/binary-search-tree-insertion/problem
+
+## Tree: Height of a Binary Tree
+- https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem
