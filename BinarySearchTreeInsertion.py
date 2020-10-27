@@ -38,12 +38,14 @@ class BinarySearchTree:
                     current.left=Node(val)
                     break
             
-            else:
+            elif current.info< val:
                 if current.right!= None:
                     current=current.right
                 else:
                     current.right=Node(val)
                     break
+            else: #If the value is already in the tree
+                break
 tree = BinarySearchTree()
 t = int(input())
 
