@@ -9,6 +9,8 @@ class Solution:
     # @param A : root node of tree
     # @return a list of list of integers
     def levelOrder(self, A):
+        if A==None:
+            return []
         level = 0
         LevelDict={}
         LevelDict[level]=[A.val]
