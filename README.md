@@ -20,3 +20,6 @@ Here I will share my solutions to certain LeetCode, HackerRank, InterviewBit que
 ## Two Sum (LeetCode) - Ice Cream Parlor (HackerRank)
 - https://leetcode.com/problems/two-sum/
 - https://www.hackerrank.com/challenges/icecream-parlor/problem
+
+## Count and Say ~ Look and Say
+- https://leetcode.com/problems/count-and-say/
