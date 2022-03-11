@@ -1,0 +1,25 @@
+class Solution:
+    def evalRPN(self, tokens: List[str]) -> int:
+        
+        Numbers = []
+        Operators = []
+        
+        Valid = ["+","-", "*","/"]
+        for each in tokens:
+            if each in Valid:
+                second = Numbers.pop()
+                first = Numbers.pop()
+                operation = each
+                if operation == "+":
+                    Numbers.append(first+second)
+                elif operation == "-":
+                    Numbers.append(first-second)
+                elif operation =="*":
+                    Numbers.append(int(first*second))
+                elif operation == "/":
+                    Numbers.append(int(first/second))
+                else:
+                    print("Wrong operator")
+            else:
+                Numbers.append(int(each))
+        return Numbers[0]
