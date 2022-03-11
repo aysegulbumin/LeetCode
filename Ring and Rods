@@ -1,0 +1,15 @@
+class Solution:
+    def countPoints(self, rings: str) -> int:
+        i=0
+        rods = [ [] for i in range(10)]
+        while i <len(rings)-1:
+            color =  rings[i]
+            bin_id = int(rings[i+1])
+            rods[bin_id].append(color)
+            i=i+2
+        sum =0
+        for each in rods:
+            if ("R" in each) and ("G" in each) and ("B" in each):
+                sum = sum+1
+        return sum 
+    
