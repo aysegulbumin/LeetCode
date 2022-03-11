@@ -1,0 +1,14 @@
+class Solution:
+    def targetIndices(self, nums: List[int], target: int) -> List[int]:
+        result= []
+        sorted_nums = sorted(nums)
+        if target not in nums:
+            return result
+        index = sorted_nums.index(target)
+        result.append(index)
+        for i in range(index+1,len(sorted_nums)):
+            if sorted_nums[i]== target:
+                result.append(i)
+            else:
+                break
+        return result
