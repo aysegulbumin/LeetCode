@@ -1,0 +1,5 @@
+import numpy as np
+class Solution:
+    def peakIndexInMountainArray(self, arr: List[int]) -> int:
+        maximum = np.max(arr)
+        return arr.index(maximum)
