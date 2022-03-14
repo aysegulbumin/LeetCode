@@ -1,0 +1,11 @@
+class Solution:
+    def restoreString(self, s: str, indices: List[int]) -> str:
+        new_string = [letter for letter in s]
+        
+        for i,index in enumerate(indices):
+            new_string[index] = s[i]
+        
+        result = ""
+        for i in new_string:
+            result = result+ i
+        return result
